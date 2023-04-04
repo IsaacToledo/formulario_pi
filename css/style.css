@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+fieldset {
+    width: 100%;
+}
+
+legend {
+    text-align: center;
+    font-family: 'Carter One', 'Time New Roman';
+    font-size: 18px;
+    margin-bottom: 8px;
+    padding: 4px;
+}
+
+body {
+    background-image: url("https://cdn.wallpapersafari.com/61/35/kJeNh2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1400px;
+    font-family: 'Alata', 'Time New Roman';
+}
+
+header {
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #29772f;
+    position: relative;
+}
+
+form {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+input[type="number"] {
+    width: 20%;
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+table {
+    background-color: #ffffff;
+}
+
+caption {
+    background-color: #ffffff;
+}
+
+thead {
+    font-family: 'Carter One', 'Time New Roman';
+}
+
+input[type="reset"] {
+    background-color: #800909;
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+input[type="submit"] {
+    background-color: #0bb190;
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 25%;
+}
+
+input[type="submit"]:hover {
+    background-color: #CCCCCC;
+    color: #0bb190;
+}
+
+input[type="reset"]:hover {
+    background-color: #CCCCCC;
+    color: #da1313;
+}
+
+input[type="button"] {
+    background-color: #29772f;
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+    float: right;
+    margin-left: 3px;
+    margin-right: 7px;
+}
+
+input[type="button"]:hover {
+    background-color: #CCCCCC;
+    color: #29772f;
+}
+
+
+/*CLasse*/
+
+.bgh6f {
+    background-color: #29772f;
+    margin-left: 75px;
+    margin-right: 75px;
+    color: white;
+}
+
+.centralizado {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.direita {
+    text-align: right;
+}
+
+.esquerda {
+    text-align: left;
+}
